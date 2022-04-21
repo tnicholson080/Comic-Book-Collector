@@ -1,0 +1,76 @@
+This application allows users to manage their comic book collections and arrange 
+trades with other users. Public API data should be used to enhance the import and
+display of collection items.
+
+Users 
+    Anonymous User
+    Can browse registered users' collection marked as "Public" Can see aggregate data 
+    about all collections (i.e. total number of Spiderman comics in all collections)
+
+    Standard User
+    Can create personal collection with up to 100 comics. Can do all thing Anonymous 
+    users can do
+
+    Premium User
+    Can store unlimited number of comics in collection
+
+Register
+    As an anonymous user, I should be able to create a Standard or Premium user account.
+
+Login
+    As an anonymous user, I should be able to log into the system.
+
+View Collection
+    Displays all comics from a user's collection.
+
+    Anonymous users can only see collections that owners have marked as Public.
+
+Create Collection
+    As a Standard or Premium user, I can create a collection. Users can have multiple 
+    collections.
+
+View Collection Statistics
+    Displays statistics about the collection. Options include things like "Number of 
+    comics for [x] superhero" or "Number of Marvel comics". Talk to Product Owner to 
+    approve the specific statistics.
+
+View Aggregate Statistics
+    As an anonymous user, view aggregate statistics for all collections. i.e., Total 
+    comic books in all collections; total Marvel comics in all collections, Total 
+    Spiderman comics in all collections.
+
+Add a Comic
+    As a Standard or Premium user, add a comic to your collection. If Standard user, 
+    can only add 100 comics. As premium user, can add unlimited comics.
+
+------------------- OPTIONAL --------------------
+
+Share Collection Link
+    As a Standard or Premium user, can send a URL to a friend who can see my collection, 
+    regardless of whether it is marked as public or not.
+
+Get Comic Info from API (Marvel, UPC, and/or other)
+    See Marvel Developer Portal, comicVine, or others
+
+Leaderboards
+    Display usernames who have the most comics in various categories
+
+Friends List
+    Allow users to create a Friends List. Friends can see other friends' collections 
+    regardless of whether those collections are marked as "Public"
+
+"Complete My Collection" Info
+    Use an API to discover which comics are missing from a collection - i.e. full run of 
+    Spiderman; All comics by Stan Lee; etc.
+
+Bulk Add / import
+    Add multiple comics on the same screen, or upload a CSV/TSV (or other format) file 
+    to add multiple comics.
+
+Export Collection
+    Export collection info to CSV/TSV file (or other format). Can be imported again 
+    using Bulk Add.
+
+Trade with another user
+    As a user I want to arrange a trade of item(s) from my collection for item(s) from 
+    the collection of another user.

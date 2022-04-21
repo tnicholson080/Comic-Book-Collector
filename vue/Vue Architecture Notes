@@ -1,0 +1,22 @@
+Components
+    CollectionsList
+    CollectionDetail
+    ComicsList
+    ComicDetail
+    UserList
+    UserDetails
+Views
+    Home
+        Global statistics
+        Most recently created collections
+    Login
+    Logout
+    Register
+    Collection
+    Comic
+    User
+    UserSearch
+    CollectionSearch
+    ComicSearch
+App
+    Navigation Bar
